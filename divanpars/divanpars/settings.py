@@ -1,4 +1,4 @@
-# Scrapy settings for leroypars project
+# Scrapy settings for divanpars project
 #
 # For simplicity, this file contains only settings considered important or
 # commonly used. You can find more settings consulting the documentation:
@@ -7,14 +7,14 @@
 #     https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
 #     https://docs.scrapy.org/en/latest/topics/spider-middleware.html
 
-BOT_NAME = "leroypars"
+BOT_NAME = "divanpars"
 
-SPIDER_MODULES = ["leroypars.spiders"]
-NEWSPIDER_MODULE = "leroypars.spiders"
+SPIDER_MODULES = ["divanpars.spiders"]
+NEWSPIDER_MODULE = "divanpars.spiders"
 
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
-#USER_AGENT = "leroypars (+http://www.yourdomain.com)"
+#USER_AGENT = "divanpars (+http://www.yourdomain.com)"
 
 # Obey robots.txt rules
 ROBOTSTXT_OBEY = True
@@ -45,13 +45,13 @@ ROBOTSTXT_OBEY = True
 # Enable or disable spider middlewares
 # See https://docs.scrapy.org/en/latest/topics/spider-middleware.html
 #SPIDER_MIDDLEWARES = {
-#    "leroypars.middlewares.LeroyparsSpiderMiddleware": 543,
+#    "divanpars.middlewares.DivanparsSpiderMiddleware": 543,
 #}
 
 # Enable or disable downloader middlewares
 # See https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
 #DOWNLOADER_MIDDLEWARES = {
-#    "leroypars.middlewares.LeroyparsDownloaderMiddleware": 543,
+#    "divanpars.middlewares.DivanparsDownloaderMiddleware": 543,
 #}
 
 # Enable or disable extensions
@@ -59,12 +59,11 @@ ROBOTSTXT_OBEY = True
 #EXTENSIONS = {
 #    "scrapy.extensions.telnet.TelnetConsole": None,
 #}
-# Список разрешенных доменов
-ALLOWED_DOMAINS = ['lemanapro.ru']
+
 # Configure item pipelines
 # See https://docs.scrapy.org/en/latest/topics/item-pipeline.html
 #ITEM_PIPELINES = {
-#    "leroypars.pipelines.LeroyparsPipeline": 300,
+#    "divanpars.pipelines.DivanparsPipeline": 300,
 #}
 
 # Enable and configure the AutoThrottle extension (disabled by default)
